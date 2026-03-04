@@ -20,7 +20,7 @@ Developed an interactive Excel dashboard to analyze **1,500+ sales transactions*
 - Enabled rapid insights into top-performing products and regions
 
 **Files & Screenshots**
-- Dashboard screenshot:'Dashboards Excel.pdf'
+- Dashboard screenshot: `Dashboards Excel.pdf`
 - Full Excel workbook: `Sales Performance 2025.xlsx`
 
 ---
@@ -39,8 +39,8 @@ Used SQL to extract meaningful insights from a 500-row dataset, identifying top 
 Provided actionable insights on performance variance across regions, supporting decision-making.
 
 **Files & Screenshots**
-- SQL screenshot: `Portfolio SQL.pdf`
-
+- SQL screenshot : `Portfolio SQL`
+  
 ---
 
 ## 🛠 Tools & Skills
