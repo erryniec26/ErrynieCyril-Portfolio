@@ -1,7 +1,6 @@
-# Errynie Cyril – Data Portfolio
-
-Welcome!  
-This repository contains data analysis projects that showcase my skills in **Excel dashboard creation, SQL querying, and analytical reporting**.
+# Errynie Cyril – Data Analytics Portfolio
+ 
+This repository showcases my data analysis work using Excel dashboards and SQL.
 
 ---
 
