@@ -1,162 +1,56 @@
-# Errynie Cyril – Data & Operations Portfolio
+# Errynie Cyril – Operations & Data Portfolio
 
-Data and operations professional focused on building **reporting systems, dashboards, and data validation workflows** using Excel and SQL.
+![Excel Badge](https://img.shields.io/badge/Excel-Dashboard-green) ![SQL Badge](https://img.shields.io/badge/SQL-DataAnalysis-blue) ![Python Badge](https://img.shields.io/badge/Python-Basic-yellow) ![Power BI Badge](https://img.shields.io/badge/PowerBI-Foundational-orange)
 
-Experienced in handling high-volume data and improving reporting efficiency through structured analysis and visualization.
+Operations and data professional with **2+ years of experience** in high-volume data management, reporting, and operational support. Skilled in **dashboards**, **SQL analytics**, **data validation**, and **workflow optimization**. This portfolio demonstrates how I **tackle data challenges, implement solutions, and deliver measurable impact**.
 
----
+## Skills & Tools
+**Excel:** Pivot Tables, Power Query, Dashboards, Data Visualization  
+**SQL:** Data Analysis, Aggregation, Validation  
+**Python:** Basic data aggregation & analysis  
+**Power BI:** Foundational  
+Data Cleaning & Validation  
+Workflow Coordination & KPI Tracking  
+Tools: Swing/D365, OnBase, Kofax (familiarity)
 
-## 🔧 Skills & Tools
+## Featured Project: Order & Transaction Tracking Dashboard (Excel + SQL)
+**Problem:** Manual tracking of **1,500+ transactions** was slow, error-prone, and made KPI tracking difficult.
 
-* **Excel** (Dashboards, Pivot Tables, Data Visualization)
-* **SQL** (Data Analysis, Aggregation, Validation)
-* **Power BI** (Foundational)
-* Data Cleaning & Process Improvement
+**Solution:** Built Excel dashboards with Pivot Tables and interactive visuals, used SQL queries to **clean, validate, and aggregate data**, and structured reports to ensure **accurate, actionable insights**.
 
----
+**Impact:** Reduced manual reporting effort by **20%**, increased visibility of product and team performance, ensured reliable, accurate data for decision-making.
 
-## 📊 Featured Project
+**Before → After:**  
+- *Manual tracking* → **Automated dashboards**  
+- *Slow trend analysis* → **Instant insights**  
+- *Risk of errors* → **Reliable KPIs**
 
-### Sales & Transaction Analysis Dashboard (Excel + SQL)
+**Tools Used:** Excel, SQL
 
-#### Overview
+**Dashboard Preview:** ![Dashboard Preview](dashboard-preview.png)
 
-Developed a reporting system to analyze transaction data and track key business metrics, including revenue, product performance, and sales trends.
+## SQL Work Examples
 
----
+**Query 1: Revenue by Product Category**  
+`SELECT product_category, SUM(revenue) AS total_revenue, AVG(revenue) AS avg_revenue FROM sales_data WHERE order_date >= '2023-01-01' GROUP BY product_category ORDER BY total_revenue DESC;`  
+*Aggregates total & average revenue by category, ranks categories.*
 
-#### Business Problem
+**Query 2: Top Performing Products**  
+`SELECT product_name, SUM(revenue) AS total_revenue FROM sales_data GROUP BY product_name ORDER BY total_revenue DESC;`  
+*Highlights high-performing products.*
 
-Manual tracking of transaction data made it difficult to:
+**Query 3: Data Validation Check**  
+`SELECT COUNT(*) AS total_records, COUNT(DISTINCT order_id) AS unique_orders FROM sales_data;`  
+*Checks for duplicates and validates dataset.*
 
-* Monitor revenue performance efficiently
-* Identify top-performing products
-* Ensure data accuracy across records
+**Concepts Applied:** Aggregation (`SUM`, `AVG`), `GROUP BY`, filtering (`WHERE`), sorting (`ORDER BY`), data validation techniques
 
----
+## What I Do
+- Build dashboards to improve reporting visibility  
+- Clean and validate data for operational accuracy  
+- Support operations and reporting with structured analysis
 
-#### Solution
-
-Built an Excel-based dashboard supported by SQL data validation to streamline reporting and improve data reliability.
-
----
-
-#### Key Contributions
-
-* Cleaned and structured a dataset of **1,500+ transactions**
-* Built an interactive Excel dashboard using **Pivot Tables and visualization**
-* Used SQL queries to generate insights and validate data
-* Organized structured data for efficient reporting
-
----
-
-#### Impact
-
-* Improved visibility of revenue and performance trends
-* Reduced manual tracking effort
-* Increased data accuracy and reliability
-
----
-
-#### Tools Used
-
-* Excel
-* SQL
-
----
-
-#### Dashboard Preview
-
-![Dashboard Preview](dashboard-preview.png)
-
----
-
-## 📊 SQL Analysis & Data Validation
-
-Used SQL queries to analyze transaction data, validate accuracy, and generate business insights for reporting.
-
----
-
-### Query 1: Revenue by Product Category
-
-```sql
-SELECT product_category,
-       SUM(revenue) AS total_revenue,
-       AVG(revenue) AS avg_revenue
-FROM sales_data
-WHERE order_date >= '2023-01-01'
-GROUP BY product_category
-ORDER BY total_revenue DESC;
-```
-
-**What this query does:**
-
-* Calculates total and average revenue by product category
-* Filters transaction data
-* Ranks categories by highest revenue
-
----
-
-### Query 2: Top Performing Products
-
-```sql
-SELECT product_name,
-       SUM(revenue) AS total_revenue
-FROM sales_data
-GROUP BY product_name
-ORDER BY total_revenue DESC;
-```
-
-**What this query does:**
-
-* Identifies top-performing products based on revenue
-* Helps highlight best-selling items
-
----
-
-### Query 3: Data Validation Check
-
-```sql
-SELECT COUNT(*) AS total_records,
-       COUNT(DISTINCT order_id) AS unique_orders
-FROM sales_data;
-```
-
-**What this query does:**
-
-* Checks for duplicate or inconsistent records
-* Ensures data accuracy before analysis
-
----
-
-### SQL Concepts Applied
-
-* Data aggregation (SUM, AVG)
-* Data grouping (GROUP BY)
-* Filtering (WHERE)
-* Sorting (ORDER BY)
-* Data validation techniques
-
----
-
-## 📁 Project Files
-
-* Excel Dashboard
-* SQL Queries
-* Supporting Documentation (PDF)
-
----
-
-## 📌 What I Do
-
-* Build dashboards to improve reporting visibility
-* Clean and validate data for accuracy
-* Support operations through structured data analysis
-
----
-
-## 📫 Contact
-
-* Email: [erryniec26@gmail.com](mailto:erryniec26@gmail.com)
-* Location: Malaysia
-* GitHub: https://github.com/erryniec26
+## Contact
+- Email: **erryniec26@gmail.com**  
+- Location: **Malaysia**  
+- GitHub: [ErrynieCyril Portfolio](https://github.com/erryniec26)
