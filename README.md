@@ -67,7 +67,7 @@ Built an Excel-based dashboard supported by SQL data validation to streamline re
 
 #### Dashboard Preview
 
-![Dashboard Preview](dashboard-preview.png)
+Dashboard preview.png
 
 ---
 
