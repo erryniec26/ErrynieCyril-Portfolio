@@ -1,6 +1,3 @@
-I see what you mean—the explanation was separate from the code block. Let’s fix that.
-Here is one single block of text. Copy everything inside the box below, delete everything currently in your README.md file on GitHub, and paste this in.
-I’ve even included a spot for your LinkedIn and your "Medical Appointment" project logic we discussed before to make it even more complete:
 # Errynie Cyril | Operations & Data Portfolio
 [![Excel](https://img.shields.io/badge/Excel-Dashboards%20%26%20VBA-green)](https://github.com/erryniec26)
 [![SQL](https://img.shields.io/badge/SQL-Data%20Analytics-blue)](https://github.com/erryniec26)
