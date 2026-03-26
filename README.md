@@ -1,10 +1,15 @@
 ## Skills & Tools
 
 **Excel:** Pivot Tables, Power Query, Dashboards, Data Visualization
+
 **SQL:** Data Analysis, Aggregation, Validation
+
 **Python:** Basic data aggregation & analysis
+
 **Power BI:** Foundational
+
 **Data Cleaning:** Validation, Workflow Coordination, KPI Tracking
+
 **Tools:** Swing/D365, OnBase, Kofax (familiarity)
 
 ---
