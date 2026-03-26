@@ -32,13 +32,19 @@
 ## SQL Portfolio: Data Analysis & Validation Examples
 
 **Query 1: Revenue by Product Category**
+
 `SELECT product_category, SUM(revenue) AS total_revenue, AVG(revenue) AS avg_revenue FROM sales_data WHERE order_date >= '2023-01-01' GROUP BY product_category ORDER BY total_revenue DESC;`
+
 *Aggregates total and average revenue by category to identify the highest-earning sectors.*
 
 **Query 2: Top Performing Products**
+
 `SELECT product_name, SUM(revenue) AS total_revenue FROM sales_data GROUP BY product_name ORDER BY total_revenue DESC;`
+
 *Highlights top products by revenue to assist in inventory and sales strategy optimization.*
 
 **Query 3: Data Integrity & Validation**
+
 `SELECT COUNT(*) AS total_records, COUNT(DISTINCT order_id) AS unique_orders FROM sales_data;`
+
 *Performs a critical audit to detect duplicates and ensure the dataset is accurate for reporting.*
