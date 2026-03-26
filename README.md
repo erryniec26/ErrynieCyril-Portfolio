@@ -1,5 +1,10 @@
 # Errynie Cyril | Data & Business Analyst Portfolio
-**Skills & Projects**
+**Turning data into actionable insights**
+
+---
+
+![Sales Dashboard](./dashboard-preview.png)  
+*(Replace with your actual Excel dashboard screenshot if needed)*
 
 ---
 
@@ -14,24 +19,20 @@
 ## 📊 Projects
 
 **1️⃣ Sales Performance Dashboard** – RM16M revenue, 1,500+ transactions  
-![Sales Dashboard](./sales-dashboard.png) *(replace with screenshot)*  
 - Dynamic Excel dashboard with slicers & multi-level filtering  
 - Automated reporting workflow → manual work ↓ ~70%  
 - SQL: top salespersons & revenue trends  
 - Impact: Identified top products & contributors  
 
 **2️⃣ Insurance Claims Analysis** – 10,000+ claims, AS White Global  
-![Claims Dashboard](./claims-dashboard.png) *(replace with screenshot)*  
-- Maintained 99% data accuracy, SLA-compliant  
-- Built Excel trackers, consolidated multiple systems  
+- Maintained 99% data accuracy under SLA targets  
+- Built Excel trackers and consolidated multiple systems  
 - Impact: Reporting efficiency ↑15%, data-driven decisions  
 
 **3️⃣ Customer Sales Administration** – 500+ records, CSN Solutions  
-![Customer Sales](./customer-sales.png) *(replace with screenshot)*  
 - Verified & structured sales data, reduced errors  
 - Contributed to 10% increase in verified submissions  
 
 **4️⃣ Guest Ops & Night Audit** – 1,000+ guest records, GENO Hotel  
-![Guest Ops](./guest-ops.png) *(replace with screenshot)*  
 - Independently managed night audits & reconciliations  
 - Ensured smooth operations for long-stay guests
