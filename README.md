@@ -4,7 +4,6 @@
 ---
 
 ![Sales Dashboard](./dashboard-preview.png)  
-*(Replace with your actual Excel dashboard screenshot if needed)*
 
 ---
 
