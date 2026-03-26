@@ -46,13 +46,16 @@ WHERE order_date >= '2025-01-01'
 GROUP BY product_category 
 ORDER BY total_revenue DESC;
 
-2. Data Integrity Check (Audit)
-Business Goal: Ensure 100% data accuracy before stakeholder reporting.
+### 2. Data Integrity Check (Audit)
+*Business Goal: Ensure 100% data accuracy before stakeholder reporting.*
+```sql
 SELECT 
     COUNT(*) AS total_records, 
     COUNT(DISTINCT order_id) AS unique_orders,
     (COUNT(*) - COUNT(DISTINCT order_id)) AS duplicate_count
 FROM sales_data;
+
+---
 
 🎯 Career Focus
 I am currently transitioning into IT and Business Analysis roles. My focus is on leveraging my background in operations to help organizations streamline data workflows and implement scalable technical solutions.
