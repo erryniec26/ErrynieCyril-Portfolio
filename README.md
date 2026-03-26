@@ -1,56 +1,65 @@
-# Errynie Cyril – Operations & Data Portfolio
+I see what you mean—the explanation was separate from the code block. Let’s fix that.
+Here is one single block of text. Copy everything inside the box below, delete everything currently in your README.md file on GitHub, and paste this in.
+I’ve even included a spot for your LinkedIn and your "Medical Appointment" project logic we discussed before to make it even more complete:
+# Errynie Cyril | Operations & Data Portfolio
+[![Excel](https://img.shields.io/badge/Excel-Dashboards%20%26%20VBA-green)](https://github.com/erryniec26)
+[![SQL](https://img.shields.io/badge/SQL-Data%20Analytics-blue)](https://github.com/erryniec26)
+[![Python](https://img.shields.io/badge/Python-Data%20Cleaning-yellow)](https://github.com/erryniec26)
+[![Power BI](https://img.shields.io/badge/Power%20BI-Foundational-orange)](https://github.com/erryniec26)
 
-![Excel Badge](https://img.shields.io/badge/Excel-Dashboard-green) ![SQL Badge](https://img.shields.io/badge/SQL-DataAnalysis-blue) ![Python Badge](https://img.shields.io/badge/Python-Basic-yellow) ![Power BI Badge](https://img.shields.io/badge/PowerBI-Foundational-orange)
+Operations and Data professional with **2+ years of experience** managing high-volume data environments (1,500+ transactions). I specialize in bridging the gap between raw data and business decisions through **automated reporting, SQL validation, and workflow optimization.**
 
-Operations and data professional with **2+ years of experience** in high-volume data management, reporting, and operational support. Skilled in **dashboards**, **SQL analytics**, **data validation**, and **workflow optimization**. This portfolio demonstrates how I **tackle data challenges, implement solutions, and deliver measurable impact**.
+---
 
-## Skills & Tools
-**Excel:** Pivot Tables, Power Query, Dashboards, Data Visualization  
-**SQL:** Data Analysis, Aggregation, Validation  
-**Python:** Basic data aggregation & analysis  
-**Power BI:** Foundational  
-Data Cleaning & Validation  
-Workflow Coordination & KPI Tracking  
-Tools: Swing/D365, OnBase, Kofax (familiarity)
+## 🛠️ Technical Stack
+* **Data Analysis:** SQL (PostgreSQL/MySQL), Excel (Power Query, Pivot Tables, Advanced Formulas)
+* **Visualization:** Interactive Excel Dashboards, Power BI (Foundational)
+* **Operations:** Workflow Logic, KPI Tracking, Data Integrity & Validation
+* **Tools:** ERP Systems (D365/Swing), Document Management (OnBase, Kofax)
 
-## Featured Project: Order & Transaction Tracking Dashboard (Excel + SQL)
-**Problem:** Manual tracking of **1,500+ transactions** was slow, error-prone, and made KPI tracking difficult.
+---
 
-**Solution:** Built Excel dashboards with Pivot Tables and interactive visuals, used SQL queries to **clean, validate, and aggregate data**, and structured reports to ensure **accurate, actionable insights**.
+## 🚀 Featured Projects
 
-**Impact:** Reduced manual reporting effort by **20%**, increased visibility of product and team performance, ensured reliable, accurate data for decision-making.
+### 1. Sales Performance & Operations Dashboard (Excel + SQL)
+**Objective:** Replace an error-prone manual tracking process for RM16M in revenue and 1,500+ annual transactions.
 
-**Before → After:**  
-- *Manual tracking* → **Automated dashboards**  
-- *Slow trend analysis* → **Instant insights**  
-- *Risk of errors* → **Reliable KPIs**
+* **The Problem:** Manual reporting took 4+ hours per week and lacked real-time KPI visibility.
+* **The Solution:** Built a dynamic dashboard using **Power Query** for data cleaning and **Slicers** for interactive filtering.
+* **Impact:** Reduced manual reporting time by **20%** and provided instant visibility into top-performing products.
 
-**Tools Used:** Excel, SQL
+### 2. Medical Appointment Workflow Logic
+**Objective:** Designed a structured logic flow for a digital appointment management system.
+* **Scope:** Mapped the end-to-end journey from user authentication to automated report generation.
+* **Outcome:** Created a clear technical blueprint for developers to ensure seamless patient-doctor scheduling.
 
-**Dashboard Preview:** ![Dashboard Preview](dashboard-preview.png)
+---
 
-## SQL Work Examples
+## 💻 SQL Portfolio Examples
 
-**Query 1: Revenue by Product Category**  
-`SELECT product_category, SUM(revenue) AS total_revenue, AVG(revenue) AS avg_revenue FROM sales_data WHERE order_date >= '2023-01-01' GROUP BY product_category ORDER BY total_revenue DESC;`  
-*Aggregates total & average revenue by category, ranks categories.*
+### 1. Revenue Segmentation & Ranking
+*Business Goal: Identify high-value categories for targeted marketing.*
+```sql
+SELECT 
+    product_category, 
+    SUM(revenue) AS total_revenue, 
+    AVG(revenue) AS avg_order_value 
+FROM sales_data 
+WHERE order_date >= '2025-01-01' 
+GROUP BY product_category 
+ORDER BY total_revenue DESC;
 
-**Query 2: Top Performing Products**  
-`SELECT product_name, SUM(revenue) AS total_revenue FROM sales_data GROUP BY product_name ORDER BY total_revenue DESC;`  
-*Highlights high-performing products.*
+2. Data Integrity Check (Audit)
+Business Goal: Ensure 100% data accuracy before stakeholder reporting.
+SELECT 
+    COUNT(*) AS total_records, 
+    COUNT(DISTINCT order_id) AS unique_orders,
+    (COUNT(*) - COUNT(DISTINCT order_id)) AS duplicate_count
+FROM sales_data;
 
-**Query 3: Data Validation Check**  
-`SELECT COUNT(*) AS total_records, COUNT(DISTINCT order_id) AS unique_orders FROM sales_data;`  
-*Checks for duplicates and validates dataset.*
-
-**Concepts Applied:** Aggregation (`SUM`, `AVG`), `GROUP BY`, filtering (`WHERE`), sorting (`ORDER BY`), data validation techniques
-
-## What I Do
-- Build dashboards to improve reporting visibility  
-- Clean and validate data for operational accuracy  
-- Support operations and reporting with structured analysis
-
-## Contact
-- Email: **erryniec26@gmail.com**  
-- Location: **Malaysia**  
-- GitHub: [ErrynieCyril Portfolio](https://github.com/erryniec26)
+🎯 Career Focus
+I am currently transitioning into IT and Business Analysis roles. My focus is on leveraging my background in operations to help organizations streamline data workflows and implement scalable technical solutions.
+📬 Contact Information
+ * Location: Malaysia
+ * Email: erryniec26@gmail.com
+ * GitHub: erryniec26
