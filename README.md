@@ -39,7 +39,6 @@ Hi! I’m **Errynie Cyril**, a detail-oriented Data & Operations professional wi
 - Python script reads CSV/SQLite, cleans data, and outputs cleaned CSV for dashboard updates.
 - **Files:**  
   - `dashboard-automation/automation.py` – Python automation script  
-  - `dashboard-automation/dashboard.xlsx` – placeholder for automated dashboard  
 - Skills demonstrated: Python, SQL, Data Cleaning, Automation
 
 ---
