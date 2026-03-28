@@ -44,5 +44,6 @@ Hi! I’m **Errynie Cyril**, a detail-oriented Data & Operations professional wi
 ---
 
 ## **Contact**
-- Email: erryniec26@gmail.com  
+- Email: erryniec26@gmail.com
+- LinkedIn: www.linkedin.com/in/erryniecyril
 - Location: Kuala Lumpur, Malaysia  
