@@ -1,1 +1,0 @@
-sql-verification/placeholder.md
